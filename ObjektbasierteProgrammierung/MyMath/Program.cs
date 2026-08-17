@@ -16,7 +16,7 @@ class MyMath
     public static int Calc_kgV(int a, int b)
     {
         int ggT = Calc_ggT(a, b);
-        return (a * b) / ggT;
+        return (a * b) / ggT; // kgV(a,b) = (a*b)/(ggT(a,b))
     }
 }
 
